@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'DS-Digital';
+    src: url('/fontes/DS-DIGIB.TTF') format('truetype');
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    width: 100vw;
+    height: 100vh;
+    background-image: url();
+    background: #1F2633 url('/imagens/fundo.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container-relogio {
+    background: rgba(0, 0, 0, 0.623);
+    padding: 20px;
+    border-radius: 10px;
+    border: 8px solid #14fff1;
+    box-shadow: inset 0 0 32px #14fff1, 0 0 32px #14fff1;
+}
+
+p {
+    display: inline;
+    font-family: DS-Digital;
+    font-size: 6rem;
+    color: #14fff1;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3), 0 0 29px #14fff1;
+}
+
+span {
+    font-family: DS-Digital;
+    font-size: 6rem;
+    color: #14fff1;
+}
