@@ -21,7 +21,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-image: url();
-    background: #1F2633 url('/imagens/fundo.jpg');
+    background: #1F2633 url('../imagens/fundo.jpg');
     background-position: center bottom;
     background-size: cover;
     overflow: hidden;
